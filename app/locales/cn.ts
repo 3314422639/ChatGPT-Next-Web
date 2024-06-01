@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。<a href="https://openai.chumeng.plus" rel="noopener nofollow" target="_blank"">注册</a>生成令牌，免费使用GPT-3.5-turbo",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。使用openai.chumeng.plus注册生成令牌，免费使用GPT-3.5-turbo",
   },
   Auth: {
     Title: "需要密码",
@@ -62,7 +62,7 @@ const cn = {
       Prompt: "快捷指令",
       Masks: "所有面具",
       Clear: "清除聊天",
-      Settings: "对话设置",
+      : "对话设置",
       UploadImage: "上传图片",
     },
     Rename: "重命名对话",
